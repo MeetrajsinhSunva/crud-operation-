@@ -1,0 +1,40 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Upload Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>Upload Image and Information</h2>
+    <div class="main">
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+       
+        <div>
+            <label for="image">Choose Image:</label>
+            <input type="file" name="image" id="image" accept="image/*" required>
+        </div>
+        <div>
+            <label for="description">Description:</label>
+            <textarea name="description" id="description" rows="4" cols="50" required></textarea>
+        </div>
+        <div>
+            <label for="category">Category:</label>
+            <select name="category" id="category" required>
+                <option value="">Select Category</option>
+                <option value="Nature">Nature</option>
+                <option value="Animals">Animals</option>
+                <option value="City">City</option>
+                <option value="People">People</option>
+            </select>
+        </div>
+        <button type="submit">Upload</button>
+ 
+    </form>
+</div>
+</body>
+</html>

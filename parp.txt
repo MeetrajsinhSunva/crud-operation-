@@ -1,0 +1,63 @@
+<form action="login.php" method="post">
+<button type="submit">Login</button>
+
+
+
+
+
+
+<body>
+    <form action="login.php" method="post"></form>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h3 class="logo"></h3>
+            </div>
+           
+            
+
+        </div> 
+        <div class="content">
+           
+
+                
+
+                <div class="form">
+                    
+                    <input type="id" name="id" placeholder="Id">
+                    <input type="Name" name="name" placeholder="Name ">
+                    <button class="btnn"><a href="#">ADD</a></button>
+
+                    
+
+                    
+                </div>
+            </form>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+</body>
+
+
+
+
+
+
+
+
+<body>
+    <h2>Login</h2>
+    <form action="login.php" method="post">
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="username" required>
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" required>
+        </div>
+        <button type="submit">Login</button>
+    </form>
+</body>
